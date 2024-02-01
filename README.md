@@ -1,6 +1,6 @@
 # NextJS-Shadcn-template
 
-<img src="readme-image.jpg" />
+![Next-Shadcn][public/readme-image.jpg]
 
 [![forthebadge](https://res.cloudinary.com/yehez/image/upload/v1635325228/made-by-typescript_mz1tue.svg)](https://forthebadge.com)
 
