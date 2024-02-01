@@ -1,96 +1,44 @@
 'use client';
 
-import Image from 'next/image';
+import { Oswald } from 'next/font/google';
 import styles from './page.module.scss';
+import Link from 'next/link';
+import { BookDashed, Github } from 'lucide-react';
+import { cn } from '@/lib/utils';
+
+const oswald = Oswald({ subsets: ['latin'] });
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href='https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            By{' '}
-            <Image
-              src='/vercel.svg'
-              alt='Vercel Logo'
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+      <div className={styles.wrapper}>
+        <div className={cn(styles.base, styles.one)}></div>
+        <div className={cn(styles.base, styles.two)}></div>
+        <div className={cn(styles.base, styles.three)}></div>
+        <div className={oswald.className}>
+          <div className={styles.titleContainer}>
+            <h1 className={styles.title}>Next-Shadcn</h1>
+            <p className={styles.bodyText}>
+              This is a Next.js app with Shadcn/UI and Typescript setup.
+            </p>
+            <div className={styles.iconContainer}>
+              <Link
+                href={'https://github.com/pilladipesh33/next-shadcn'}
+                target='_blank'
+              >
+                <Github className={styles.icon} />
+              </Link>
+              <Link
+                href={
+                  'https://github.com/new?template_name=next-shadcn&template_owner=pilladipesh33'
+                }
+                target='_blank'
+              >
+                <BookDashed className={styles.icon} />
+              </Link>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src='/next.svg'
-          alt='Next.js Logo'
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href='https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app'
-          className={styles.card}
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href='https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app'
-          className={styles.card}
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href='https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app'
-          className={styles.card}
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href='https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app'
-          className={styles.card}
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
       </div>
     </main>
   );
