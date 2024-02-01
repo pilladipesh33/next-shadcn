@@ -49,3 +49,5 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 - [Next.js Docs](https://nextjs.org/docs/getting-started) - Learn about Next JS and its features
 - [Shadcn UI](https://ui.shadcn.com/) - UI component
 - [Typescript](https://www.typescriptlang.org/) - The programming language
+- [Husky](https://github.com/typicode/husky) - Git hooks made easy 🐶 woof!
+- [SCSS/SASS](https://sass-lang.com/)
