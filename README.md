@@ -1,5 +1,7 @@
 # NextJS-Shadcn-template
 
+<img src="readme-image.jpg" />
+
 [![forthebadge](https://res.cloudinary.com/yehez/image/upload/v1635325228/made-by-typescript_mz1tue.svg)](https://forthebadge.com)
 
 This is a Next JS + Shadcn UI personalized template. Actually, I made this for myself so I don't need to waste my time to overthinking about the config and setup and focusing on the development.
