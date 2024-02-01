@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextJS-Shadcn-template
 
-## Getting Started
+[![forthebadge](https://res.cloudinary.com/yehez/image/upload/v1635325228/made-by-typescript_mz1tue.svg)](https://forthebadge.com)
 
-First, run the development server:
+This is a Next JS + Shadcn UI personalized template. Actually, I made this for myself so I don't need to waste my time to overthinking about the config and setup and focusing on the development.
+
+But if you also find this template is useful, you also can use it. And of course I'm open to any feedbacks. You can fork or clone this repo and make a PR here if you have a some idea.
+
+## ⚡ What's include here?
+
+- 🚀 **Next.js 14**
+- ⛓️ **TypeScript**
+- 👌 **Shadcn/ui**
+- 🧥 **Sass and TailwindCSS**
+- ✔️ **toolings** for linting, formatting, and conventions configured
+  - `eslint`, `prettier`, `husky` and `lint-staged`.
+  - `pre-commit` hook configured
+- **lucide-react** for icons.
+
+## Pre-requisites
+
+1. [Node.js](https://nodejs.org/en/) or nvm installed.
+2. `pnpm` installed.
+
+## How to use it?
+
+1. You can easily use this template by run:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npx create-next-app --example https://github.com/pilladipesh33/nextjs-starter <YOUR_APP_NAME>
+```
+
+2. After cloning the project, run this command: `pnpm` or `pnpm install`
+
+3. Then, run the development server:
+
+```bash
+pnpm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## References
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Next.js Docs](https://nextjs.org/docs/getting-started) - Learn about Next JS and its features
+- [Shadcn UI](https://ui.shadcn.com/) - UI component
+- [Typescript](https://www.typescriptlang.org/) - The programming language
