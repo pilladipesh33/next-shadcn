@@ -29,7 +29,7 @@ But if you also find this template is useful, you also can use it. And of course
 1. You can easily use this template by run:
 
 ```bash
-npx create-next-app --example https://github.com/pilladipesh33/nextjs-starter <YOUR_APP_NAME>
+pnpm create next-app -e https://github.com/pilladipesh33/next-shadcn
 ```
 
 2. After cloning the project, run this command: `pnpm` or `pnpm install`
