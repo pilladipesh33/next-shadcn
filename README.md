@@ -15,8 +15,7 @@ But if you also find this template is useful, you also can use it. And of course
 - 👌 **Shadcn/ui**
 - 🧥 **Sass and TailwindCSS**
 - ✔️ **toolings** for linting, formatting, and conventions configured
-  - `eslint`, `prettier`, `husky` and `lint-staged`.
-  - `pre-commit` hook configured
+  - `eslint`,`prettier`.
 - **lucide-react** for icons.
 
 ## Pre-requisites
@@ -49,5 +48,4 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 - [Next.js Docs](https://nextjs.org/docs/getting-started) - Learn about Next JS and its features
 - [Shadcn UI](https://ui.shadcn.com/) - UI component
 - [Typescript](https://www.typescriptlang.org/) - The programming language
-- [Husky](https://github.com/typicode/husky) - Git hooks made easy 🐶 woof!
 - [SCSS/SASS](https://sass-lang.com/)
