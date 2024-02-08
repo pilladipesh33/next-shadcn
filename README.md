@@ -32,7 +32,7 @@ But if you also find this template is useful, you also can use it. And of course
 pnpm create next-app -e https://github.com/pilladipesh33/next-shadcn
 ```
 
-2. After cloning the project, run this command: `pnpm` or `pnpm install`
+2. After cloning the project, run this command: `pnpm` or `pnpm install`.
 
 3. Then, run the development server:
 
